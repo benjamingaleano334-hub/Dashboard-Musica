@@ -2,7 +2,7 @@
 
 Dashboard interactivo hecho con **Streamlit** que explora cómo cambió el sonido de las canciones entre 1921 y 2020 y qué se relaciona con su popularidad.
 
-**Demo en vivo:** []
+**Demo en vivo:** https://dashboard-musica-1950-2020.streamlit.app
 
 ## Pregunta central
 
@@ -46,7 +46,7 @@ Requiere Python 3.9 o superior.
 ```bash
 # 1. Clonar el repositorio
 git clone [URL de tu repositorio]
-cd [nombre-de-la-carpeta]
+cd Dashboard-Musica
 
 # 2. Crear y activar un entorno virtual
 python -m venv venv
@@ -68,7 +68,6 @@ Se abre automáticamente en `http://localhost:8501`.
 ├── .streamlit/
 │   └── config.toml          # tema visual
 ├── data/
-│   └── clean/
 │       └── spotify_limpio.csv
 ├── app.py                   # el dashboard
 ├── requirements.txt
