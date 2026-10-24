@@ -45,7 +45,7 @@ Requiere Python 3.9 o superior.
 
 ```bash
 # 1. Clonar el repositorio
-git clone [URL de tu repositorio]
+git clone https://github.com/benjamingaleano334-hub/Dashboard-Musica.git
 cd Dashboard-Musica
 
 # 2. Crear y activar un entorno virtual
@@ -65,7 +65,7 @@ Se abre automáticamente en `http://localhost:8501`.
 ## Estructura del proyecto
 
 ```
-├── .streamlit/
+├── app.streamlit/
 │   └── config.toml          # tema visual
 ├── data/
 │       └── spotify_limpio.csv
